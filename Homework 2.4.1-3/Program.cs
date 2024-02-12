@@ -25,6 +25,13 @@ namespace DanePracownika
             Console.WriteLine(third);
             Console.WriteLine(second);
             Console.WriteLine(first);
+
+
+            
+            double a = 5;
+            double b = 6;
+            double diagonal = Math.Sqrt((Math.Pow(a, 2) + Math.Pow(b, 2)));
+            Console.WriteLine("Przekątna prostokąta o długości "+a+" i szerokości "+b+" wyniesie: "+diagonal);
         }
     }
 }
