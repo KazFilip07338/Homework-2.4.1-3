@@ -32,6 +32,18 @@ namespace DanePracownika
             double b = 6;
             double diagonal = Math.Sqrt((Math.Pow(a, 2) + Math.Pow(b, 2)));
             Console.WriteLine("Przekątna prostokąta o długości "+a+" i szerokości "+b+" wyniesie: "+diagonal);
+            Console.ReadLine();
+
+            int g;
+            string h;
+            double l;
+
+            Console.WriteLine(g = 10);
+            Console.WriteLine(h="Szkoła Dotneta");
+            Console.WriteLine(l = 12.5);
+
+
+
         }
     }
 }
