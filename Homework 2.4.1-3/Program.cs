@@ -18,6 +18,7 @@ namespace DanePracownika
             Console.WriteLine("Płeć: " + Sex);
             Console.WriteLine("Pesel: " + PersonalIdentificationNumber);
             Console.WriteLine("Numer Pracownika: " + EmployeeId);
+            Console.ReadLine();
 
             char first = 'A';
             char second = 'B';
@@ -25,9 +26,8 @@ namespace DanePracownika
             Console.WriteLine(third);
             Console.WriteLine(second);
             Console.WriteLine(first);
+            Console.ReadLine();
 
-
-            
             double a = 5;
             double b = 6;
             double diagonal = Math.Sqrt((Math.Pow(a, 2) + Math.Pow(b, 2)));
