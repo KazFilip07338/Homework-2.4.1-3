@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 namespace DanePracownika
 {
     class Program
@@ -31,7 +32,7 @@ namespace DanePracownika
             double a = 5;
             double b = 6;
             double diagonal = Math.Sqrt((Math.Pow(a, 2) + Math.Pow(b, 2)));
-            Console.WriteLine("Przekątna prostokąta o długości "+a+" i szerokości "+b+" wyniesie: "+diagonal);
+            Console.WriteLine("Przekątna prostokąta o długości " + a + " i szerokości " + b + " wyniesie: " + diagonal);
             Console.ReadLine();
 
             int g;
@@ -39,8 +40,34 @@ namespace DanePracownika
             double l;
 
             Console.WriteLine(g = 10);
-            Console.WriteLine(h="Szkoła Dotneta");
+            Console.WriteLine(h = "Szkoła Dotneta");
             Console.WriteLine(l = 12.5);
+            Console.ReadLine();
+
+            Console.WriteLine("Welcome in our Population Survey! ");
+            Console.WriteLine("Let me ask you couple of questions, please make sure you answer all of them");
+            Console.WriteLine("Your answers will let us analyze demographic characteristics of the population");
+            Console.WriteLine("PLease enter your name:");
+            string name = Console.ReadLine();
+            Console.WriteLine($"Dear {name} please enter your surname now: ");
+            string surname = Console.ReadLine();
+            Console.WriteLine($"Dear {name} {surname} please enter your email address:");
+            string email = Console.ReadLine();
+            Console.WriteLine($"Dear {name} {surname} please enter your phone number:");
+            string phone = Console.ReadLine();
+            Console.WriteLine($"Dear {name} {surname} please enter your height in cms:");
+            double height = double.Parse(Console.ReadLine());
+            Console.WriteLine($"Dear {name} {surname} please enter your weight in kgs:");
+            double weight = double.Parse(Console.ReadLine());
+
+
+
+
+
+
+
+
+
 
 
 
