@@ -59,6 +59,9 @@ namespace DanePracownika
             double height = double.Parse(Console.ReadLine());
             Console.WriteLine($"Dear {name} {surname} please enter your weight in kgs:");
             double weight = double.Parse(Console.ReadLine());
+            Console.WriteLine($"--------------------------------------------------------");
+            Console.WriteLine($"Dear {name} {surname} thank you for your contribution!");
+
 
 
 
